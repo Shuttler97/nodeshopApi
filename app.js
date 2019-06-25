@@ -5,6 +5,7 @@ const app = express();
 const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/order');
 const morgan = require('morgan');
+const bodyParser = require('body-parser');
 
 
 console.log('called', app);
